@@ -1,23 +1,30 @@
-# Sistema de Reservas de Hotel
+# Ejemplos de Programación Orientada a Objetos (POO) – Mundo Real
 
-## Descripción
-Este proyecto es un ejemplo del mundo real que simula un sistema básico
-de reservas de un hotel utilizando el lenguaje Python y el paradigma de
-Programación Orientada a Objetos (POO).
+Este repositorio contiene dos ejemplos desarrollados en **Python** que aplican
+los principios de la **Programación Orientada a Objetos (POO)**, modelando
+situaciones del mundo real.
 
----
-
-## Funcionamiento del sistema
-- Cliente: representa a una persona que realiza una reserva.
-- Habitacion: representa una habitación del hotel.
-- Reserva: relaciona un cliente con una habitación y calcula el total a pagar.
+Los programas fueron desarrollados paso a paso utilizando **VS Code** y
+control de versiones con **Git y GitHub**, realizando commits progresivos
+y descriptivos.
 
 ---
 
-## Cómo ejecutar el programa
-1. Abrir la terminal en la carpeta del proyecto.
-2. Ejecutar el siguiente comando:
+## Caso 1: Sistema de Reservas de Hotel
 
+### Descripción
+Este programa simula un sistema básico de reservas de un hotel.
+Permite registrar clientes, habitaciones y realizar reservas,
+calculando el total a pagar según los días de estadía.
+
+### Clases utilizadas
+- **Cliente**: almacena los datos del cliente.
+- **Habitacion**: representa una habitación del hotel.
+- **Reserva**: gestiona la relación entre cliente y habitación.
+
+### Archivo
+- `reservas.py`
+
+### Ejecución
 ```bash
 python reservas.py
-
