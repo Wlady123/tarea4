@@ -23,6 +23,13 @@ class Cliente:
     def agregar_producto(self, producto):
         # Agrega un producto al carrito del cliente
         self.carrito.append(producto)
-
         
+    def calcular_total(self):
+        # Calcula el total a pagar del carrito
+        total = 0
+        for producto in self.carrito:
+            total += producto.precio
+        return total
+
+
 
