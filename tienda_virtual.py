@@ -19,3 +19,10 @@ class Cliente:
     def __init__(self, nombre):
         self.nombre = nombre
         self.carrito = []
+
+    def agregar_producto(self, producto):
+        # Agrega un producto al carrito del cliente
+        self.carrito.append(producto)
+
+        
+
