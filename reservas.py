@@ -31,7 +31,3 @@ habitacion1 = Habitacion(101, "Matrimonial", 50)
 
 reserva1 = Reserva(cliente1, habitacion1, 3)
 print(reserva1.calcular_total())
-class Cliente:
-    def __init__(self, nombre, cedula):
-        self.nombre = nombre
-        self.cedula = cedula
