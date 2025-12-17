@@ -9,7 +9,13 @@ class Producto:
     def __init__(self, nombre, precio):
         self.nombre = nombre
         self.precio = precio
-        
+
     def mostrar_info(self):
         # Muestra la información del producto
         return f"Producto: {self.nombre} - Precio: ${self.precio}"
+
+# Clase Cliente: representa un cliente de la tienda
+class Cliente:
+    def __init__(self, nombre):
+        self.nombre = nombre
+        self.carrito = []
