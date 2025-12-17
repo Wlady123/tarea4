@@ -17,6 +17,9 @@ class Habitacion:
         self.tipo = tipo
         self.precio = precio
         self.disponible = True
+    def mostrar_info(self):
+    return f"Habitación {self.numero} - {self.tipo} - ${self.precio}"
+   
 class Reserva:
     def __init__(self, cliente, habitacion, dias):
         self.cliente = cliente
