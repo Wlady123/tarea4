@@ -23,7 +23,7 @@ class Cliente:
     def agregar_producto(self, producto):
         # Agrega un producto al carrito del cliente
         self.carrito.append(producto)
-        
+
     def calcular_total(self):
         # Calcula el total a pagar del carrito
         total = 0
@@ -33,3 +33,14 @@ class Cliente:
 
 
 
+# --- Prueba del sistema ---
+
+producto1 = Producto("Laptop", 800)
+producto2 = Producto("Mouse", 20)
+
+cliente1 = Cliente("Daniel")
+
+cliente1.agregar_producto(producto1)
+cliente1.agregar_producto(producto2)
+
+print("Total a pagar:", cliente1.calcular_total())
